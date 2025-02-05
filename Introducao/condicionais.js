@@ -29,3 +29,4 @@ if (tipoCombustivel === 'Gasolina') {
 } else {
     console.log('Erro')
 }
+
