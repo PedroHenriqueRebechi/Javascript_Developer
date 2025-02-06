@@ -39,4 +39,4 @@ class Pessoa {
 }
 
 let pessoa1 = new Pessoa('José', 82, 1.85)
-console.log(pessoa1.calcularIMC().toFixed(2))
+console.log('O IMC é ' + pessoa1.calcularIMC().toFixed(2))
