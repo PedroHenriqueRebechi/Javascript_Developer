@@ -1,8 +1,4 @@
-// Utilizando Fetch API
 
-const offset = 0
-const limit = 10
-const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
 
 function convertPokemonToLi(pokemon) {
     return `
@@ -24,18 +20,11 @@ function convertPokemonToLi(pokemon) {
 const pokemonList = document.getElementById('pokemonList')
 
 
+pokeApi.getPokemons().then((pokemons = []) => {
 
-// Fetch retorna uma Promise/Processamento assincrono
-fetch(url)
-    .then((response) => response.json()) // Tente
-    .then((jsonBody) => jsonBody.results)
-    .then((pokemons) => {
+    pokemonList.innerHTML += pokemons.map((pokemon) => convertPokemonToLi(pokemon)).join('')
+    
+})
 
-        for (let i = 0; i < pokemons.length; i++) {
-            const pokemon = pokemons[i]
-            pokemonList.innerHTML += convertPokemonToLi(pokemon)
-        }   
 
-    })
-    .catch((error) => console.log(error)) // Caso erro
  
