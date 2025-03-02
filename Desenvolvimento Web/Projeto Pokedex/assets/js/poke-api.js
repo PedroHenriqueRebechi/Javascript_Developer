@@ -1,10 +1,20 @@
 const pokeApi = {}
 
-pokeApi.getPokemons = (offset = 0, limit = 10) => {
-    // Utilizando Fetch API
-    const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
-    // Fetch retorna uma Promise/Processamento assincrono
-    return fetch(url)
-        .then((response) => response.json()) // Tente
-        .then((jsonBody) => jsonBody.results)
+pokeApi.getPokemonDetail = (pokemon) => {
+    return fetch(pokemon.url)
+        .then((response) => response.json())
 }
+
+pokeApi.getPokemons = (offset = 0, limit = 10) => {
+    const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
+
+    return fetch(url)
+        .then((response) => response.json()) // Converte para json
+        .then((jsonBody) => jsonBody.results) // Filtra o json
+        .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))
+        .then((detailRequests) => Promise.all(detailRequests))
+        .then((pokemonsDetails) => {
+            console.log(pokemonsDetails)
+        })
+}
+
