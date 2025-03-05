@@ -1,12 +1,13 @@
 /*  Mobile First - Tecnica usada para simplificar o CSS responsivo */
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monsterrat', sans-serif;
     box-sizing: border-box;
 }
 
 body {
     background-color: #f6f8fc;
+    margin: 0;
 }
 
 .content {

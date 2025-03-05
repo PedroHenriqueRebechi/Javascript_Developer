@@ -84,6 +84,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
@@ -97,6 +98,7 @@
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+    font-weight: 600;
 }
 
 .pokemon .detail {
@@ -118,7 +120,7 @@
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
-    filter: brightness(1.1);
+    filter: brightness(1.2);
     text-align: center;
 }
 
