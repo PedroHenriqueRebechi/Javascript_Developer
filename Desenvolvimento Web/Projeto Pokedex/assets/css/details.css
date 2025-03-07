@@ -1,12 +1,18 @@
 .details-content {
-    background-color:  #77c850;
-    padding: 10px;
+    background-color:  #fff;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
 header {
     display: flex;
     flex-direction: column;
+    background-color:  #77c850;
+    padding: 10px;
+    
 }
 
 article {
@@ -14,6 +20,8 @@ article {
     justify-content: center;
     padding-top: 5rem;
     margin-bottom: -1.5rem;
+    background-color:  #77c850;
+    
 }
 
 footer {
@@ -21,6 +29,8 @@ footer {
     padding: .8rem;
     padding-top: 1.6rem;
     border-radius: 1rem;
+    flex: 1;
+    
 }
 
 li {
@@ -82,6 +92,7 @@ h1 {
 
 img {
     max-width: 100%;
+    position: relative;
 
 }
 
@@ -95,4 +106,37 @@ img {
 
 .abilitie-name {
 
+}
+
+.characteristics {
+    display: flex;
+    justify-content: space-around;
+}
+
+.height {
+    background-color:  #919191;
+    color: #fff;
+    padding: .5rem .5rem;
+    margin: .25rem .15rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    list-style: none;
+    filter: brightness(1.2);
+    width: 45%;
+    text-align: center;
+    max-width: 280px;
+}
+
+.weight {
+    background-color:  #919191;
+    color: #fff;
+    padding: .5rem .5rem;
+    margin: .25rem .15rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    list-style: none;
+    filter: brightness(1.2);
+    width: 45%;
+    text-align: center;
+    max-width: 280px;
 }
