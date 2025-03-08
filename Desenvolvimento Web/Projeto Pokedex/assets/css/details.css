@@ -1,9 +1,24 @@
+body {
+    margin: 0;
+}
+
 .details-content {
     background-color:  #fff;
-    min-width: 100vw;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 992px) {
+    .details-content {
+        max-width: 992px;
+        
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
 }
 
 
@@ -30,7 +45,9 @@ footer {
     padding-top: 1.6rem;
     border-radius: 1rem;
     flex: 1;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 li {
@@ -98,14 +115,49 @@ img {
 
 .abilities {
     margin-bottom: .5rem;
+    margin-top: .5rem;
+    text-align: center;
+    color: #000000ce;
 }
 
-.abilities-name {
-    
+.abilities-names {
+    display: flex;
+    justify-content: center;
 }
 
 .abilitie-name {
+    padding: .5rem .5rem;
+    margin: .25rem .15rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    list-style: none;
+    border: 3px solid #77c850;;
+    text-align: center;
+    max-width: 400px;
+}
 
+.moves {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    text-align: center;
+    color: #000000ce;
+    min-height: 33.3%;
+}
+
+.moves-names {
+    display: flex;
+    justify-content: center;
+}
+
+.move-name {
+    padding: .5rem .5rem;
+    margin: .25rem .15rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    list-style: none;
+    border: 3px solid #77c850;;
+    text-align: center;
+    max-width: 400px;
 }
 
 .characteristics {
@@ -140,3 +192,4 @@ img {
     text-align: center;
     max-width: 280px;
 }
+
