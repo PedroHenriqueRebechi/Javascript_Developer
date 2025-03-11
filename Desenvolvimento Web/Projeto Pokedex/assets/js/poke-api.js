@@ -20,6 +20,10 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     const moves = pokeDetail.moves.slice(0,2).map((move) => move.name)
     pokemon.moves = moves
 
+    pokemon.height = pokeDetail.height
+
+    pokemon.weight = pokeDetail.weight
+
     return pokemon
 }
 
