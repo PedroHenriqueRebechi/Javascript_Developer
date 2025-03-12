@@ -1,4 +1,6 @@
-function convertPokeApiDetailToSection (pokemon) {
+const detailsContent = document.getElementById('detailsContent')
+
+function convertPokemonDetailsToSection (pokemon) {
     return `
     <header>
 
@@ -50,3 +52,10 @@ function convertPokeApiDetailToSection (pokemon) {
     
     `
 }
+
+function buildPage (pokemon) {
+    const newHtml = pokemon.convertPokemonDetailsToSection
+    detailsContent.innerHTML += newHtml
+}
+
+buildPage()
