@@ -1,11 +1,3 @@
-// URL da API para obter informações sobre Bulbasaur
-const url = 'https://pokeapi.co/api/v2/pokemon/1/';
-
-fetch(url)
-
-    .then(response => response.json()) // Converte a resposta em JSON
-    .then(pokemon => {transformJsonInSection(pokemon)})
-
 function transformJsonInSection(pokemon) {
     const altura = pokemon.height / 10
     const peso = pokemon.weight / 10
@@ -62,3 +54,23 @@ function transformJsonInSection(pokemon) {
     
     `
 }
+
+function transformPokemonInDetails (pokemonNumber) {
+
+    // URL da API para obter informações sobre Bulbasaur
+    let url = `https://pokeapi.co/api/v2/pokemon/${pokemonNumber}/`;
+
+    fetch(url)
+
+        .then(response => response.json()) // Converte a resposta em JSON
+        .then(pokemon => {transformJsonInSection(pokemon)})
+
+    
+}
+
+function redirectToPokemonDetails (pokemonNumber) {
+
+    window.location.href = `details.html?pokemon=${pokemonNumber}`;
+
+}
+

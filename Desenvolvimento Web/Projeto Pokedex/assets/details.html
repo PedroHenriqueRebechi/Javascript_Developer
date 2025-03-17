@@ -13,8 +13,28 @@
 
     <div id="detailsContent"></div> 
     
+    <script>
     
+    document.addEventListener("DOMContentLoaded", function () {
+        // Pegamos os parâmetros da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const pokemonNumber = urlParams.get("pokemon");
+    
+        if (pokemonNumber) {
+            fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonNumber}/`)
+                .then(response => response.json())
+                .then(pokemon => {
+                    transformJsonInSection(pokemon); // Renderiza os detalhes do Pokémon
+                })
+                .catch(error => console.error("Erro ao buscar Pokémon:", error));
+        } else {
+            console.error("Nenhum Pokémon foi selecionado.");
+        }
+    });
+    
+    </script>
     <script src="js/poke-api.js"></script>
     <script src="js/pokemon-details.js"></script>
+    <script src="js/pokemon-model.js"></script>
 </body>
 </html>
