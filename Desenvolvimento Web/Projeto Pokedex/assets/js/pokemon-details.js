@@ -45,8 +45,8 @@ function transformJsonInSection(pokemon) {
             </div>
                 <br>
             <div class="characteristics">
-                <li class="height">Altura de ${altura} m</li>
-                <li class="weight">Peso de ${peso} kg</li>
+                <li class="height">Height: ${altura} m</li>
+                <li class="weight">Weight: ${peso} kg</li>
             </div>
             
 
