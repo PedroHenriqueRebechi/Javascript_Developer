@@ -1,7 +1,7 @@
 
 # Repositório - JavaScript Developer
 
-Bem-vindo ao repositório do curso de JavaScript Developer! Aqui você encontrará materiais, exercícios e projetos desenvolvidos durante o meu aprendizado.
+Bem-vindo ao repositório sobre a minha experiência com o curso de JavaScript Developer da DIO! Aqui você encontrará materiais, exercícios e projetos desenvolvidos durante o meu aprendizado.
 
 ## Tecnologias utilizadas
 
