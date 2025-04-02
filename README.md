@@ -30,5 +30,5 @@ O curso me ensinou desde os conceitos básicos até técnicas avançadas de Java
 | Pasta  | Descrição |
 | ------------- | ------------- |
 | [Introducao](./Introducao/)  | Conceitos iniciais e Sintaxe  |
-| [Desenvolvimento Web](./Desenvolvimento-Web/)  | Aprendizado de HTML e CSS, desenvolvimento do projeto Pokedex|
-|[Conceitos Avançados](./Conceitos-Avançados/) | Funções e Listas avançadas |
+| [Desenvolvimento Web](./DesenvolvimentoWeb/)  | Aprendizado de HTML e CSS, desenvolvimento do projeto Pokedex|
+|[Conceitos Avançados](./Conceitos_Avançados/) | Funções e Listas avançadas |
