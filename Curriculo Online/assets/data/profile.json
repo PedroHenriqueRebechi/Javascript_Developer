@@ -43,31 +43,21 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Pokedex com PokeAPI",
+      "url": "https://github.com/PedroHenriqueRebechi/Javascript_Developer/tree/main/Desenvolvimento%20Web/Projeto%20Pokedex/assets",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Aprendiz de TI - Arauco",
+      "period": "Out 2024 - Até o momento",
+      "description": "Atuo no setor de TI com foco em análise do negócio, planejamento estratégico e controle de contas, constantemente evoluindo processos e automatizando tarefas. Além disso, gerencio a liberação dos acessos SAP e auxilio na gestão orçamentária do setor."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Estagiário financeiro - Tenaz",
+      "period": "Mar 2024 - Out 2024",
+      "description": "Atuei com contas a pagar e receber, realizando o gerenciamento eficiente do fluxo de caixa e contribuindo para o controle financeiro da empresa. Também fui responsável pela emissão de notas fiscais, assegurando que os processos de faturamento estivessem em conformidade com as normas tributárias."
     }
   ]
 }

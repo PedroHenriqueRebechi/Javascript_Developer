@@ -40,6 +40,8 @@ function updateLanguages (profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
+
+
 (async function () {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
