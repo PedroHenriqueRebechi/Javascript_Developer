@@ -26,7 +26,7 @@
 }
 
 
-.portfolio li .title.github::before {
+.portfolio li h3.github::before {
     content: "";
     display: inline-block;
     width: 1rem;
