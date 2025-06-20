@@ -48,7 +48,7 @@ Este projeto me ajudou a aprimorar minhas habilidades em consumo de APIs, manipu
 <br>
 
 <img src="https://github.com/user-attachments/assets/bc2b1547-66a1-4320-84d0-48ef3410163b" width="550" height="490">
-<img src="https://github.com/user-attachments/assets/3c42bf42-b5ee-40f0-8d80-86b8cc4ff3e1" width="400" height="490">
+<img src="https://github.com/user-attachments/assets/3343c7db-d733-45ab-830f-e5ea646612f8" width="400" height="490">
 
 ### Como Executar o Projeto
 
