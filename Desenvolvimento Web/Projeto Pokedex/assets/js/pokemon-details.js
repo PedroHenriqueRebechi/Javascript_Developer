@@ -4,9 +4,10 @@ function transformJsonInSection(pokemon) {
 
     document.getElementById("detailsContent").innerHTML =
     `
-    <header>
+    <header class="${pokemon.types[0].type.name}">
 
             <!-- Pokemon here -->
+            
             
             <span class="number">${pokemon.id}</span>
             <span class="name">${pokemon.name}</span>
@@ -18,9 +19,9 @@ function transformJsonInSection(pokemon) {
             
     </header>
 
-    <article>
+    <article class="${pokemon.types[0].type.name}">
 
-            <img src="${pokemon.sprites.other.dream_world.front_default}" alt="photo">
+        <img src="${pokemon.sprites.other.dream_world.front_default}" alt="photo">
 
     </article>
 
