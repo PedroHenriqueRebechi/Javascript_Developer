@@ -1,5 +1,5 @@
+<h1><img src="https://github.com/user-attachments/assets/a8fd3e38-ac0f-4a1f-8cb7-1453955955ed" width="30" height="30" > Repositório - JavaScript Developer </h1>
 
-# Repositório - JavaScript Developer
 
 Bem-vindo ao repositório sobre a minha experiência com o curso de JavaScript Developer da DIO! Aqui você encontrará materiais, exercícios e projetos desenvolvidos durante o meu aprendizado.
 
@@ -32,6 +32,7 @@ O curso me ensinou desde os conceitos básicos até técnicas avançadas de Java
 | [Introducao](./Introducao/)  | Conceitos iniciais e Sintaxe  |
 | [Desenvolvimento Web](./Desenvolvimento%20Web/)  | Aprendizado de HTML e CSS, desenvolvimento do projeto Pokedex|
 |[Conceitos Avançados](./Conceitos%20Avançados/) | Funções e Listas avançadas |
+|[Curriculo Online](./Curriculo%20Online/) | Projeto final do curso, desenvolvimento do Curriculo Online |
 
 # Projetos
 
@@ -48,9 +49,17 @@ Este projeto me ajudou a aprimorar minhas habilidades em consumo de APIs, manipu
 <br>
 
 <img src="https://github.com/user-attachments/assets/bc2b1547-66a1-4320-84d0-48ef3410163b" width="550" height="490">
-<img src="https://github.com/user-attachments/assets/3343c7db-d733-45ab-830f-e5ea646612f8" width="400" height="490">
+<img src="https://github.com/user-attachments/assets/3343c7db-d733-45ab-830f-e5ea646612f8" width="350" height="490">
 
-### Como Executar o Projeto
+## Currículo Online
+
+Para a conclusão da formação, criamos do zero a estrutura e estilização de um Portfolio/Curriculo online automático que, consome dados de um arquivo JSON com as minhas informações e projetos.
+
+<br>
+
+<img src="https://github.com/user-attachments/assets/44595885-0876-4c92-8981-76eb5fa2af6f" width="700" height="490">
+
+### Como Executar os Projetos
 
 Clone o repositório:
 ```bash
